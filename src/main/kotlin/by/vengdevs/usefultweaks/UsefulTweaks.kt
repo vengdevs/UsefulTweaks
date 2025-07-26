@@ -35,5 +35,7 @@ object UsefulTweaks : ModInitializer {
 					CharcoalBlock.BLOCK
                 )
 			})
+
+		logger.info("Successfully initialized!")
 	}
 }
