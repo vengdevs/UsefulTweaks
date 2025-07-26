@@ -53,9 +53,8 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 tasks.withType(KotlinCompile).configureEach {
-	compilerOptions {
-		sourceCompatibility = JavaVersion.VERSION_17
-		targetCompatibility = JavaVersion.VERSION_17
+	kotlinOptions {
+		jvmTarget = 17
 	}
 }
 
